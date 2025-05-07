@@ -6,7 +6,8 @@
     ["lib/piotimer.py", "http://localhost:8000/pico-lib/piotimer.py"],
     ["lib/led.py", "http://localhost:8000/pico-lib/led.py"],
     ["lib/ssd1306.mpy", "http://localhost:8000/pico-lib/ssd1306.mpy"],
-    ["lib/umqtt/simple.mpy", "http://localhost:8000/pico-lib/umqtt/simple.mpy"]
+    ["lib/umqtt/simple.mpy", "http://localhost:8000/pico-lib/umqtt/simple.mpy"],
+	["proo.py", "http://localhost:8000/proo.py"]
   ],
   "deps": [
   ],
