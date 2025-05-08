@@ -685,7 +685,7 @@ def save_history(bpm, timestamp=None, source="HR"):
         timestamp = utime.localtime()
     formatted_time = "{:02d}-{:02d} {:02d}:{:02d}".format(timestamp[1], timestamp[2], timestamp[3], timestamp[4])
     history.append({
-        "bpm": bpm if source == "HR" else f"{source}",  # تمييز مصدر القراءة
+        "bpm": bpm if source == "HR" else f"{source}",  
         "time": formatted_time
     })
 
